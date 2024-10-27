@@ -49,7 +49,7 @@ document.querySelector('#result').addEventListener('keydown', (e) => {
 
 // Limpa o display e os valores
 document.querySelector('.eraser').addEventListener('click', () => {
-    document.querySelector('#result').value = ''; // Limpa o display
+    document.querySelector('#result').value = 0; // Limpa o display
     num1 = '';
     num2 = '';
     operator = '';
