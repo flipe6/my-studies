@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 document.querySelector('.eraser').addEventListener('click', () => {
+<<<<<<< HEAD
+=======
+    document.querySelector('#result').value = 0; // Limpa o display
+>>>>>>> fcb3791676b7cdda187685b220b0900925d37de2
     num1 = '';
     num2 = '';
     operator = '';
@@ -56,4 +60,8 @@ document.querySelector('.equals').addEventListener('click', () => {
         num2 = '';
         operator = '';
     }
+<<<<<<< HEAD
 })
+=======
+}
+>>>>>>> fcb3791676b7cdda187685b220b0900925d37de2
