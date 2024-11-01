@@ -6,17 +6,14 @@ let display = document.getElementById('result');
 
 document.addEventListener('DOMContentLoaded', () => {
     display.value = 0;
-})
+});
 
 document.querySelector('.eraser').addEventListener('click', () => {
-
-    document.querySelector('#result').value = 0; // Limpa o display
-
     num1 = '';
     num2 = '';
     operator = '';
     result = 0;
-    display.value = 0; // Limpa o display
+    display.value = 0;
 });
 
 document.querySelectorAll('.clicavel').forEach(item => {
